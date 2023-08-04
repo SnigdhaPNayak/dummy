@@ -1,0 +1,12 @@
+<h2>Pluck Operator [from, pipe]:-</h2>
+<h4>--Creating an observable using from operator--</h4>
+<h4>--Implementing pluck inside pipe operator--</h4>
+
+<h3>Data:</h3>
+<p *ngFor="let value of users">Name:{{value.name}}, Skill:{{value.skill}}, Job Title:{{value.job.title}}</p>
+
+<h3>Fetching name, by using pluck operator</h3>
+<p *ngFor="let item of data">{{item}}</p>
+
+<h3>Fetching job title, by using pluck operator in nested array</h3>
+<p *ngFor="let item of data2">{{item}}</p>
